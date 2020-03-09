@@ -1,0 +1,202 @@
+
+a {
+    text-decoration: none;
+}
+
+h1 a {
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+h1, h2 {
+    font-style: normal;
+    line-height: 1.1;
+}
+
+li {
+    font-size: 0.80rem;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li {
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none !important;
+}
+
+* {
+    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", FontAwesome, sans-serif !important;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body * {
+    word-wrap: break-word;
+}
+
+html {
+    /*height: 100%;*/
+    /*width: 75%;*/
+    /*width: 60rem;*/
+}
+
+/*.all-ALL {*/
+/*padding: 0;*/
+/*margin: auto;*/
+/*width:800px;*/
+/*!*height: 600px;*!*/
+
+/*}*/
+
+body {
+    /*width: 100%;*/
+    /*display: block;*/
+    padding: 0;
+    margin: 0;
+    color: #656565;
+    background: url("../../image/purple1.jpg");
+    /*background-size: 100% 100%; ok!!*/
+    /*background-size: auto 100%;*/
+    background-size: 100% 1600px;
+    /*position: absolute;*/
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    font-size: 0.80rem;
+    line-height: 1.4rem;
+
+    /*display: block;*/
+    /*_width:1200px;*/
+    /*min-width: inherit;*/
+    /*_height:100px;*/
+    /*min-height:100px;*/
+}
+
+.container-1 {
+    padding: 0;
+    margin: 0;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    background-color: rgba(0, 0, 0, 0.4) !important;
+
+}
+
+.lavish_head-1 {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.lavish_logo-1 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 25%;
+    height: 25%;
+}
+
+.lavish_menus-1 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 75%;
+    height: 75%;
+}
+
+.lavish_menu-1 {
+    font-weight: 600;
+    float: left;
+    width: 90%;
+}
+
+#la-banner-1 {
+    min-height: 150px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#la-site-tagline-1 {
+    font-size: 1.1em;
+    margin: 0.35em 0 0em 0em;
+}
+
+#la-text-group-1 {
+    padding: 5px 0px 5px 0px;
+}
+
+#la-site-title-1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.6em;
+    color: #605F5F;
+    font-weight: 900;
+}
+
+#la-site-title-group-1 {
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+
+.lr_responsive_banner-1 {
+    background-color: rgb(234, 234, 234);
+    background-image: url("../../image/background2.jpg");
+    color: rgb(255, 255, 255);
+    /*display: block;*/
+    /*max-width: 600px;*/
+    /*border-radius: 2px;*/
+    /*background-size: 100% 100%;*/
+}
+
+ul.navmenu-1 {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+ul.navmenu-1 > li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+ul.navmenu-1 > li > a {
+    display: block;
+    padding: 0rem 0.7rem;
+    list-style: none;
+    font-size: 0.75rem;
+    color: #fff;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+ul.navmenu-1 > li:hover > a {
+    color: #fff;
+}
+
+ul.navmenu-1 > li > a:hover, ul.navmenu-1 > li > a:focus, ul.navmenu-1 > li > a:active {
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 0, 155);
+}
+

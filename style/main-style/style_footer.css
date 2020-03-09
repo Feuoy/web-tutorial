@@ -1,0 +1,42 @@
+
+.li-4 {
+    display: inline;
+}
+
+.a-4 {
+    color: rgb(255, 255, 255);
+}
+
+.row {
+    margin: 0;
+}
+
+.lavish_footer {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 1rem 0rem;
+
+    font-size: 0.80rem;
+    line-height: 1.4rem;
+}
+
+body * {
+    word-wrap: break-word;
+}
+
+* {
+    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", FontAwesome, sans-serif !important;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.col-md-12 {
+    width: 100%;
+    position: relative;
+    min-height: 0;
+    font-size: 0.80rem;
+    line-height: 1.4rem;
+}
+
